@@ -24,7 +24,22 @@ public class DeepLinkHandler : MonoBehaviour
 }
 
 ```
+<details>
+<summary><b>Extra functionality</b></summary>
+    
+```csharp
 
+    // The tool ID provided on Initialize.
+    Link.ID;
+
+    // Generate a URL text from a message.
+    Link.GenerateMessage(string message);
+
+    // Activate the tool with a URL.
+    Link.Activate(string url);
+
+```
+</details>
 <br>
 
 ## Platforms Setup
@@ -51,3 +66,8 @@ Replace scheme with your `scheme` had set it up in the game.
 ## Webpage Setup
 1. In the web machine create a file with your game name And Add the `index.html` in it.
 2. Replace scheme with your `scheme` set up in the game.
+
+<br>
+<br>
+
+### For any questions or inquiries, please contact Alaa@Shusmo.io
