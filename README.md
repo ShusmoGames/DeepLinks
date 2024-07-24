@@ -1,7 +1,7 @@
 # DeepLinks
 This Unity Deep Links tool allows you to handle deep linking in your Unity game for both Android and iOS platforms. It includes scripts to handle deep links and a sample implementation to demonstrate its use.
 
-- 🔗 **[Video Tutorial](https://youtu.be/i_TRpT_5C1E](https://youtu.be/HRiejA5-3tU?si=mzcqsoIUq-Z8zsiM))**
+- 🔗 **[Video Tutorial](https://youtu.be/teVzvImsYV4)**
 
 <br>
 
