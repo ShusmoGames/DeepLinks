@@ -1,11 +1,11 @@
 {
-    "name": "com.shusmo.[toolname]",
-    "version": "1.0.1",
-    "displayName": "Tool Name",
-    "description": "Description",
-    "documentationUrl": "URL to the README.md file",
-    "changelogUrl": "URL to the CHANGELOG.md file",
-    "licensesUrl": "URL to the LICENSE file",
+    "name": "com.shusmo.deeplink",
+    "version": "1.0.2",
+    "displayName": "Deep Link",
+    "description": "This is a deep link tool Providing ability for open the game from web link.",
+    "documentationUrl": "https://github.com/ShusmoGames/DeepLinks/blob/main/README.md",
+    "changelogUrl": "https://github.com/ShusmoGames/DeepLinks/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/ShusmoGames/DeepLinks/blob/main/LICENSE",
     "dependencies": {
       "com.unity.textmeshpro": "3.0.6"
    },
