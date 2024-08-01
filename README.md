@@ -10,15 +10,14 @@ You need to Initialize the tool with your scheme value And Subscribe to the 'OnA
 
 ```csharp
 using UnityEngine;
-using ShusmoSystems.DeepLink;
 
 public class DeepLinkHandler : MonoBehaviour
 {
-    void Start() => Link.Init("scheme");
+    void Start() => ShusmoAPI.Link.Init("scheme");
 
-    void OnEnable() => Link.OnActivation += HandleDeepLinkActivation;
+    void OnEnable() => ShusmoAPI.Link.OnActivation += HandleDeepLinkActivation;
 
-    void OnDisable() => Link.OnActivation -= HandleDeepLinkActivation;
+    void OnDisable() => ShusmoAPI.Link.OnActivation -= HandleDeepLinkActivation;
 
     private void HandleDeepLinkActivation(string message) => Debug.Log(message);
 }
@@ -30,13 +29,13 @@ public class DeepLinkHandler : MonoBehaviour
 ```csharp
 
     // The tool ID provided on Initialize.
-    Link.ID;
+    ShusmoAPI.Link.ID;
 
     // Generate a URL text from a message.
-    Link.GenerateMessage(string message);
+    ShusmoAPI.Link.GenerateMessage(string message);
 
     // Activate the tool with a URL.
-    Link.Activate(string url);
+    ShusmoAPI.Link.Activate(string url);
 
 ```
 </details>
