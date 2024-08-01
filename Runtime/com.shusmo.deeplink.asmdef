@@ -1,6 +1,6 @@
 {
     "name": "com.shusmo.deeplink",
-    "rootNamespace": "Shusmo",
+    "rootNamespace": "ShusmoAPI",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

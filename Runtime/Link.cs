@@ -1,10 +1,8 @@
 using System;
 using UnityEngine;
 
-namespace Shusmo
+namespace ShusmoAPI
 {
-    public partial class ShusmoAPI
-    {
         public static class Link
         {
             public static Action<string> OnActivation;
@@ -54,4 +52,3 @@ namespace Shusmo
             public static void Activate(string url) => HandleDeepLinkActivation(url);
         }
     }
-}

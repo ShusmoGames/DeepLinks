@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using Shusmo;
 
 public class DeepLinkHandler : MonoBehaviour
 {
