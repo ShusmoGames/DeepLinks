@@ -1,6 +1,6 @@
 {
     "name": "com.shusmo.deeplink",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Deep Link",
     "description": "This is a deep link tool Providing ability for open the game from web link.",
     "documentationUrl": "https://github.com/ShusmoGames/DeepLinks/blob/main/README.md",
